@@ -19366,12 +19366,12 @@ spec:
                               type: string
                             insecure:
                               type: boolean
-                            owner:
-                              type: string
                             labels:
                               items:
                                 type: string
                               type: array
+                            owner:
+                              type: string
                             repo:
                               type: string
                             tokenRef:
