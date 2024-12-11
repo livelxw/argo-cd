@@ -5751,6 +5751,10 @@ spec:
                                         type: string
                                       repo:
                                         type: string
+                                      labels:
+                                        type: array
+                                        items:
+                                          type: string
                                       tokenRef:
                                         properties:
                                           key:
